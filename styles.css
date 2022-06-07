@@ -1,0 +1,48 @@
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid white;
+}
+
+
+
+.card {
+    
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #7C7C7C;
+    border-bottom: 5px solid #CF5C36;
+    color: #EFC88B;
+    font-family: Tahoma;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    text-shadow: 2px 2px black;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    
+    
+   
+}
+
+@keyframes change {
+  from {background-color: 7C7C7C;}
+  to {background-color: black;}
+}
+
+
+h3:hover, p:hover, h4:hover  {
+   background-color: #CF5C36;
+}
+
+
+    
+    
